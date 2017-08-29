@@ -11,7 +11,7 @@ public interface Target {
      */
     int damageHealth(int damage);
 
-    int healHealth(int healing);
+    void healHealth(int healing);
 
     int getShield();
 
@@ -23,7 +23,7 @@ public interface Target {
      */
     int damageShield(int damage);
 
-    int healShield(int healing);
+    void healShield(int healing);
 
     boolean isDestroyed();
 
